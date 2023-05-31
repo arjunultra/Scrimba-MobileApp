@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Rubik", sans-serif;
+  background-color: #e9e2fe;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+div.container {
+  background-image: url("./assets/cat.png");
+  background-repeat: no-repeat;
+  background-position-x: 5.9em;
+  background-position-y: 2.4em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 27em;
+  width: 23em;
+  border: 6px solid black;
+  border-radius: 1em;
+  background-color: #eff3f5;
+}
+
+input#input-field {
+  color: #432000;
+  background-color: #dce1eb;
+  border: none;
+  padding: 1.5em;
+  border-radius: 0.5em;
+  margin-top: 8em;
+}
+
+button#add-button {
+  color: #fdfdfd;
+  background-color: #ac485a;
+  margin-top: 2em;
+  border: none;
+  padding: 2em;
+  width: 15em;
+  border-radius: 0.5em;
+}
